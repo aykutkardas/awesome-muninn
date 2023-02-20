@@ -12,7 +12,7 @@
     longitude: "td:nth-child(3) | float",
     depth: {
       schema: {
-        value: "td:nth-child(4)",
+        value: "td:nth-child(4) | float",
         unit: { fill: "km" },
       },
     },
@@ -46,7 +46,7 @@ const results = parse(content, config);
     "latitude": 37.445,
     "longitude": 36.987,
     "depth": {
-      "value": "6.29",
+      "value": 6.29,
       "unit": "km"
     },
     "type": "ML",
@@ -59,7 +59,7 @@ const results = parse(content, config);
     "latitude": 36.239,
     "longitude": 35.951,
     "depth": {
-      "value": "7.0",
+      "value": 7.0,
       "unit": "km"
     },
     "type": "ML",
